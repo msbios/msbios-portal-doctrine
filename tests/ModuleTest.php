@@ -3,9 +3,9 @@
  * @access protected
  * @author Judzhin Miles <info[woof-woof]msbios.com>
  */
-namespace MSBiosTest\Portal;
+namespace MSBiosTest\Portal\Doctrine;
 
-use MSBios\Portal\Module;
+use MSBios\Portal\Doctrine\Module;
 use PHPUnit\Framework\TestCase;
 use Zend\Loader\AutoloaderFactory;
 use Zend\Loader\StandardAutoloader;

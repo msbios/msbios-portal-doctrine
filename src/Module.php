@@ -3,7 +3,7 @@
  * @access protected
  * @author Judzhin Miles <info[woof-woof]msbios.com>
  */
-namespace MSBios\Portal;
+namespace MSBios\Portal\Doctrine;
 
 use MSBios\ModuleInterface;
 use Zend\Loader\AutoloaderFactory;
@@ -12,7 +12,7 @@ use Zend\ModuleManager\Feature\AutoloaderProviderInterface;
 
 /**
  * Class Module
- * @package MSBios\Portal
+ * @package MSBios\Portal\Doctrine
  */
 class Module implements ModuleInterface, AutoloaderProviderInterface
 {
