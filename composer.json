@@ -1,0 +1,58 @@
+{
+  "name": "msbios/portal-doctrine",
+  "description": "MSBios Portal Doctrine",
+  "license": "GPL",
+  "keywords": [
+    "php"
+  ],
+  "homepage": "https://github.com/msbios/msbios-portal-doctrine",
+  "minimum-stability": "stable",
+  "authors": [
+    {
+      "name": "Judzhin Miles",
+      "email": "info@msbios.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "MSBios\\Portal\\Doctrine\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "MSBiosTest\\Portal\\Doctrine\\": "tests/"
+    }
+  },
+  "require": {
+    "msbios/portal": "^1.0",
+    "msbios/cpanel-doctrine": "~1.0",
+    "msbios/guard-cpanel-doctrine": "~1.0"
+  },
+
+  "require-dev": {
+    "msbios/debug": "^1.0",
+    "msbios/test": "^1.0"
+  },
+  "scripts": {
+    "cs-check": "phpcs",
+    "cs-fix": "phpcbf",
+    "test": [
+      "@cs-check",
+      "phpunit --colors=always"
+    ],
+    "test-coverage": "phpunit --colors=always --coverage-clover clover.xml",
+    "upload-coverage": "coveralls -v",
+    "alter": "./vendor/bin/doctrine-module orm:schema-tool:update --force",
+    "commit": "git add . && git commit -a -m \"Lazy Composer Commiter\" && git push",
+    "serve": "php -S 0.0.0.0:3107 -t public public/index.php",
+    "themes": [
+      "cd public && ln -s ../vendor/msbios/application/themes/default/public default",
+      "cd public && ln -s ../vendor/msbios/cpanel/themes/limitless/public limitless"
+    ]
+  },
+  "extra": {
+    "zf": {
+      "component": "MSBios\\Portal\\Doctrine"
+    }
+  }
+}
