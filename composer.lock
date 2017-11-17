@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "9fe73af9d86f3a685a014146f4f31c6f",
+    "content-hash": "128d930330da01c35a985c14804ba134",
     "packages": [
         {
             "name": "behat/transliterator",
@@ -1461,32 +1461,21 @@
         },
         {
             "name": "msbios/cpanel-doctrine",
-            "version": "v1.0.16",
+            "version": "v1.0.17",
             "source": {
                 "type": "git",
                 "url": "https://github.com/msbios/msbios-cpanel-doctrine.git",
-                "reference": "7b0b8b3c9e097764f9ad67a4c03c8f06433034fd"
+                "reference": "73391aac08b14642790b77e06e17711e58c009be"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/msbios/msbios-cpanel-doctrine/zipball/7b0b8b3c9e097764f9ad67a4c03c8f06433034fd",
-                "reference": "7b0b8b3c9e097764f9ad67a4c03c8f06433034fd",
+                "url": "https://api.github.com/repos/msbios/msbios-cpanel-doctrine/zipball/73391aac08b14642790b77e06e17711e58c009be",
+                "reference": "73391aac08b14642790b77e06e17711e58c009be",
                 "shasum": ""
             },
-            "require": {
-                "msbios/cpanel": "~1.0",
-                "msbios/form-doctrine": "~1.0",
-                "msbios/resource-doctrine": "~1.0"
-            },
             "require-dev": {
-                "msbios/application": "^1.0",
-                "msbios/authentication-doctrine": "^1.0",
                 "msbios/debug": "^1.0",
-                "msbios/guard-cpanel-doctrine": "^1.0",
-                "msbios/guard-resource-doctrine": "^1.0",
-                "phpunit/phpunit": "^5.7",
-                "squizlabs/php_codesniffer": "^3.0",
-                "zendframework/zend-test": "^3.1"
+                "msbios/test": "^1.0"
             },
             "type": "library",
             "autoload": {
@@ -1509,7 +1498,7 @@
             "keywords": [
                 "php"
             ],
-            "time": "2017-09-29T14:02:39+00:00"
+            "time": "2017-11-17T15:16:04+00:00"
         },
         {
             "name": "msbios/doctrine",
@@ -1619,26 +1608,24 @@
         },
         {
             "name": "msbios/form-doctrine",
-            "version": "v1.0.2",
+            "version": "v1.0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/msbios/msbios-form-doctrine.git",
-                "reference": "7542c60e55cac1480612a0f48ebf7a4dad73f906"
+                "reference": "8c2fbf1d1f2a37d8a20e1fe6c926a15bc734fa1d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/msbios/msbios-form-doctrine/zipball/7542c60e55cac1480612a0f48ebf7a4dad73f906",
-                "reference": "7542c60e55cac1480612a0f48ebf7a4dad73f906",
+                "url": "https://api.github.com/repos/msbios/msbios-form-doctrine/zipball/8c2fbf1d1f2a37d8a20e1fe6c926a15bc734fa1d",
+                "reference": "8c2fbf1d1f2a37d8a20e1fe6c926a15bc734fa1d",
                 "shasum": ""
             },
             "require": {
-                "msbios/doctrine": "~1.0",
-                "msbios/form": "~1.0"
+                "msbios/doctrine": "^1.0",
+                "msbios/form": "^1.0"
             },
             "require-dev": {
-                "phpunit/phpunit": "^5.7",
-                "squizlabs/php_codesniffer": "^3.0",
-                "zendframework/zend-test": "^3.1"
+                "msbios/test": "^1.0"
             },
             "type": "library",
             "extra": {
@@ -1666,7 +1653,7 @@
             "keywords": [
                 "php"
             ],
-            "time": "2017-10-24T11:30:26+00:00"
+            "time": "2017-11-17T14:30:58+00:00"
         },
         {
             "name": "msbios/guard",
@@ -2282,35 +2269,29 @@
         },
         {
             "name": "msbios/resource-doctrine",
-            "version": "v1.0.11",
+            "version": "v1.0.12",
             "source": {
                 "type": "git",
                 "url": "https://github.com/msbios/msbios-resource-doctrine.git",
-                "reference": "f872fcf864f1bab92506413318ef355534b2c1d1"
+                "reference": "0ed7f4c4d5834fbd7ee92a46b597fc82ec8b2cba"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/msbios/msbios-resource-doctrine/zipball/f872fcf864f1bab92506413318ef355534b2c1d1",
-                "reference": "f872fcf864f1bab92506413318ef355534b2c1d1",
+                "url": "https://api.github.com/repos/msbios/msbios-resource-doctrine/zipball/0ed7f4c4d5834fbd7ee92a46b597fc82ec8b2cba",
+                "reference": "0ed7f4c4d5834fbd7ee92a46b597fc82ec8b2cba",
                 "shasum": ""
             },
             "require": {
                 "dkorsak/doctrine-data-fixture-module": "^1.0",
                 "doctrine/doctrine-orm-module": "^1.1",
                 "gedmo/doctrine-extensions": "^2.4",
-                "msbios/doctrine": "^1.0",
                 "msbios/form-doctrine": "^1.0",
-                "msbios/resource": "~1.0",
-                "zendframework/zend-loader": "^2.5",
-                "zendframework/zend-modulemanager": "^2.8",
-                "zendframework/zend-servicemanager": "^3.3",
                 "zendframework/zend-session": "^2.8"
             },
             "require-dev": {
-                "phpunit/phpunit": "^5.7",
-                "squizlabs/php_codesniffer": "^3.0",
-                "zendframework/zend-router": "^3.0",
-                "zendframework/zend-test": "^3.1"
+                "msbios/resource": "^1.0",
+                "msbios/test": "^1.0",
+                "zendframework/zend-router": "^3.0"
             },
             "type": "library",
             "autoload": {
@@ -2333,7 +2314,7 @@
             "keywords": [
                 "php"
             ],
-            "time": "2017-09-29T13:48:14+00:00"
+            "time": "2017-11-17T15:05:05+00:00"
         },
         {
             "name": "msbios/stdlib",
