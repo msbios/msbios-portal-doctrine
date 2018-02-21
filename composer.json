@@ -1,7 +1,7 @@
 {
   "name": "msbios/portal-doctrine",
   "description": "MSBios Portal Doctrine",
-  "license": "GPL",
+  "license": "MIT",
   "keywords": [
     "php"
   ],

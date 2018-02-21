@@ -3,11 +3,8 @@
 return [
     // Retrieve list of modules used in this application.
     'modules' => [
-        'MSBios\Form\Doctrine',
-        'MSBios\Doctrine',
         'Zend\Cache',
         'Zend\Paginator',
-        'MSBios\Db',
         'Zend\Db',
         'Zend\I18n',
         'Zend\Navigation',
@@ -23,6 +20,11 @@ return [
         'Zend\Router',
         'Zend\Validator',
         'DoctrineDataFixtureModule',
+
+        'MSBios\Db',
+        'MSBios\Form\Doctrine',
+        'MSBios\Doctrine',
+
         'MSBios\Test',
         'MSBios\Portal',
         'MSBios\Application',
