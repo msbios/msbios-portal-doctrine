@@ -26,10 +26,11 @@
   "require": {
     "msbios/portal": "^1.0",
     "msbios/doctrine": "^1.0",
-    "msbios/authentication-doctrine": "^1.0",
-    "msbios/resource-doctrine": "^1.0",
     "msbios/cpanel-doctrine": "^1.0",
-    "msbios/guard-resource-doctrine": "^1.0",
+    "msbios/resource-doctrine": "^1.0",
+    "msbios/authentication-doctrine": "^1.0",
+    "msbios/guard-doctrine": "^1.0",
+    "msbios/guard-cpanel": "^1.0",
     "msbios/guard-cpanel-doctrine": "^1.0"
   },
   "require-dev": {

@@ -3,6 +3,9 @@
 return [
     // Retrieve list of modules used in this application.
     'modules' => [
+        'MSBios\Resource\Doctrine',
+        'MSBios\Form\Doctrine',
+        'MSBios\Guard\Doctrine',
         'Zend\Cache',
         'Zend\Paginator',
         'Zend\Db',
@@ -20,11 +23,8 @@ return [
         'Zend\Router',
         'Zend\Validator',
         'DoctrineDataFixtureModule',
-
         'MSBios\Db',
-        'MSBios\Form\Doctrine',
         'MSBios\Doctrine',
-
         'MSBios\Test',
         'MSBios\Portal',
         'MSBios\Application',
@@ -45,7 +45,6 @@ return [
         'MSBios\Authentication\Doctrine',
         'MSBios\Guard\CPanel\Doctrine',
         'MSBios\Guard\Resource\Doctrine',
-        'MSBios\Resource\Doctrine',
         'MSBios\CPanel\Doctrine',
         'Zend\Log',
         'ZendDeveloperTools',
