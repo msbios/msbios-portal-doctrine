@@ -3,6 +3,7 @@
 return [
     // Retrieve list of modules used in this application.
     'modules' => [
+        'MSBios\Hydrator',
         'MSBios\Resource\Doctrine',
         'MSBios\Form\Doctrine',
         'MSBios\Guard\Doctrine',
