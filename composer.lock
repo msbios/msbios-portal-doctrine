@@ -1627,16 +1627,16 @@
         },
         {
             "name": "msbios/authentication",
-            "version": "v1.0.12",
+            "version": "v1.0.15",
             "source": {
                 "type": "git",
                 "url": "https://github.com/msbios/msbios-authentication.git",
-                "reference": "3049fdee6dac6eb48f1d53c66c7f4559fd55acd6"
+                "reference": "9bf9b29e70e0a01d51e7f7b3947417a11c737e7e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/msbios/msbios-authentication/zipball/3049fdee6dac6eb48f1d53c66c7f4559fd55acd6",
-                "reference": "3049fdee6dac6eb48f1d53c66c7f4559fd55acd6",
+                "url": "https://api.github.com/repos/msbios/msbios-authentication/zipball/9bf9b29e70e0a01d51e7f7b3947417a11c737e7e",
+                "reference": "9bf9b29e70e0a01d51e7f7b3947417a11c737e7e",
                 "shasum": ""
             },
             "require": {
@@ -1673,20 +1673,20 @@
             "keywords": [
                 "php"
             ],
-            "time": "2018-11-08T15:36:41+00:00"
+            "time": "2018-11-09T11:44:18+00:00"
         },
         {
             "name": "msbios/authentication-doctrine",
-            "version": "v1.0.5",
+            "version": "v1.0.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/msbios/msbios-authentication-doctrine.git",
-                "reference": "33a29bedbfee3c27dbc08dc6ac8d5d81547567c4"
+                "reference": "09680dc9770e395d6846bc31d9ca9c78d2c5a1ab"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/msbios/msbios-authentication-doctrine/zipball/33a29bedbfee3c27dbc08dc6ac8d5d81547567c4",
-                "reference": "33a29bedbfee3c27dbc08dc6ac8d5d81547567c4",
+                "url": "https://api.github.com/repos/msbios/msbios-authentication-doctrine/zipball/09680dc9770e395d6846bc31d9ca9c78d2c5a1ab",
+                "reference": "09680dc9770e395d6846bc31d9ca9c78d2c5a1ab",
                 "shasum": ""
             },
             "require": {
@@ -1723,7 +1723,7 @@
             "keywords": [
                 "php"
             ],
-            "time": "2018-11-08T15:46:03+00:00"
+            "time": "2018-11-09T11:52:06+00:00"
         },
         {
             "name": "msbios/cache",
@@ -2097,16 +2097,16 @@
         },
         {
             "name": "msbios/guard",
-            "version": "v1.0.23",
+            "version": "v1.0.25",
             "source": {
                 "type": "git",
                 "url": "https://github.com/msbios/msbios-guard.git",
-                "reference": "4e7f4e3afcdd24caba1f7273a12a2bb2019090c9"
+                "reference": "f2498073995f719f1cdeb4ec7839bc5f6831803d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/msbios/msbios-guard/zipball/4e7f4e3afcdd24caba1f7273a12a2bb2019090c9",
-                "reference": "4e7f4e3afcdd24caba1f7273a12a2bb2019090c9",
+                "url": "https://api.github.com/repos/msbios/msbios-guard/zipball/f2498073995f719f1cdeb4ec7839bc5f6831803d",
+                "reference": "f2498073995f719f1cdeb4ec7839bc5f6831803d",
                 "shasum": ""
             },
             "require": {
@@ -2148,7 +2148,7 @@
             "keywords": [
                 "php"
             ],
-            "time": "2018-08-12T19:31:42+00:00"
+            "time": "2018-11-09T17:22:43+00:00"
         },
         {
             "name": "msbios/guard-cpanel",
@@ -2635,16 +2635,16 @@
         },
         {
             "name": "msbios/msbios",
-            "version": "v1.0.6",
+            "version": "v1.0.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/msbios/msbios-msbios.git",
-                "reference": "3db910564d610ee2a0a737cbc94089bc933ef759"
+                "reference": "24fc90f18acce199ca01b31c67dcac13c2b0e1c4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/msbios/msbios-msbios/zipball/3db910564d610ee2a0a737cbc94089bc933ef759",
-                "reference": "3db910564d610ee2a0a737cbc94089bc933ef759",
+                "url": "https://api.github.com/repos/msbios/msbios-msbios/zipball/24fc90f18acce199ca01b31c67dcac13c2b0e1c4",
+                "reference": "24fc90f18acce199ca01b31c67dcac13c2b0e1c4",
                 "shasum": ""
             },
             "require": {
@@ -2655,7 +2655,7 @@
                 "msbios/test": "^1.0"
             },
             "bin": [
-                "bin/msbios.sh"
+                "msbios.sh"
             ],
             "type": "library",
             "autoload": {
@@ -2678,7 +2678,7 @@
             "keywords": [
                 "php"
             ],
-            "time": "2018-03-07T10:56:01+00:00"
+            "time": "2018-11-08T20:31:25+00:00"
         },
         {
             "name": "msbios/navigation",
@@ -2782,16 +2782,16 @@
         },
         {
             "name": "msbios/portal",
-            "version": "v1.0.6",
+            "version": "v1.0.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/msbios/msbios-portal.git",
-                "reference": "2152132c56736ad444a11a34074cd67de716bd4a"
+                "reference": "51f6fc1badde0abb9f66a39a909de724b784cb3d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/msbios/msbios-portal/zipball/2152132c56736ad444a11a34074cd67de716bd4a",
-                "reference": "2152132c56736ad444a11a34074cd67de716bd4a",
+                "url": "https://api.github.com/repos/msbios/msbios-portal/zipball/51f6fc1badde0abb9f66a39a909de724b784cb3d",
+                "reference": "51f6fc1badde0abb9f66a39a909de724b784cb3d",
                 "shasum": ""
             },
             "require": {
@@ -2835,7 +2835,7 @@
             "keywords": [
                 "php"
             ],
-            "time": "2018-03-30T10:43:53+00:00"
+            "time": "2018-11-08T19:06:52+00:00"
         },
         {
             "name": "msbios/resource",

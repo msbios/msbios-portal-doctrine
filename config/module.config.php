@@ -10,22 +10,6 @@ namespace MSBios\Portal\Doctrine;
 use Zend\ServiceManager\Factory\InvokableFactory;
 
 return [
-
-    //'router' => [
-    //    'routes' => [
-    //        'home' => [
-    //            'type' => Literal::class,
-    //            'options' => [
-    //                'route' => '/',
-    //                'defaults' => [
-    //                    'controller' => Controller\IndexController::class,
-    //                    'action' => 'index',
-    //                ],
-    //            ],
-    //        ],
-    //    ],
-    //],
-
     'controllers' => [
         'factories' => [
             Controller\IndexController::class =>

@@ -3,6 +3,7 @@
  * @access protected
  * @author Judzhin Miles <info[woof-woof]msbios.com>
  */
+
 namespace MSBios\Portal\Doctrine\Controller;
 
 use MSBios\Application\Controller\IndexController as DefaultIndexController;
@@ -13,11 +14,5 @@ use MSBios\Application\Controller\IndexController as DefaultIndexController;
  */
 class IndexController extends DefaultIndexController
 {
-    /**
-     * @return \Zend\View\Model\ViewModel
-     */
-    public function indexAction()
-    {
-        return parent::indexAction();
-    }
+    // ...
 }
