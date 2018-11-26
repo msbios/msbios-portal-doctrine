@@ -23,7 +23,6 @@ return [
 
         'DoctrineModule',
         'DoctrineORMModule',
-        'DoctrineDataFixtureModule',
 
         'MSBios\Validator',
         'MSBios\Paginator\Doctrine',
