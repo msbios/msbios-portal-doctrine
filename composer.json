@@ -46,8 +46,6 @@
     ],
     "test-coverage": "phpunit --colors=always --coverage-clover clover.xml",
     "upload-coverage": "coveralls -v",
-    "alter": "./vendor/bin/doctrine-module orm:schema-tool:update --force",
-    "commit": "git add . && git commit -a -m \"Lazy Composer Commiter\" && git push",
     "serve": "php -S 0.0.0.0:3107 -t public public/index.php",
     "themes": [
       "cd public && ln -s ../vendor/msbios/application/themes/default/public default",
